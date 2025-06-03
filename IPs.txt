@@ -1,0 +1,25 @@
+#Part 1 (TLS) : 
+Server 192.168.137.134
+Client 192.168.137.133
+
+
+
+#Part 2 (SSH) :
+192.168.13.158
+
+
+
+
+#Bonus (Firewall IDS) :
+-PfSense 
+	Interface1 : 10.0.2.15
+	Interface2 : 10.0.0.1
+	Interface3 : 10.6.6.1
+	Interface4 : 10.80.80.1
+
+-Metasploitable2
+	IP: 10.6.6.2 , Gateway: 10.6.6.1
+
+-Linux Mint
+	IP: 10.0.0.100 , Gateway : 10.0.0.1
+	
